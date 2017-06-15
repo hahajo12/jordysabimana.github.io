@@ -1,0 +1,186 @@
+/*===========================================================
+                    DEFAULT VALUES:
+                    Font Family             :Roboto condensed
+
+                    Greenish Blue           : #34c6d3 for (Buttons, Icons, Links % Backgrounds)
+                    Steel Gray              : #41464b for (Headings)
+                    Blue Bayoux             : #64707b for (Paragraphs)
+                    White                   : #fff    for (Text With Black Backgrounds)
+                    Black                   : #000
+============================================================*/
+
+
+/* General CSS */
+
+html,
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+p {
+  color: #64707b;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+h3 {
+  color: #64707b;
+  text-transform: uppercase;
+}
+
+p.aboutme {
+
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+}
+
+/*===========================================================
+                HOME
+===========================================================*/
+
+html, body {
+  height: 100%;
+}
+
+#home {
+  height: 100%;
+}
+
+#home-cover {
+  height: 100%;
+  background-image: url("https://static.pexels.com/photos/6565/apple-desk-laptop-working.jpg");
+}
+
+#home-content-box {
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+
+#home-content-box-inner {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#home-heading h3 {
+  color: #fff;
+  font-size: 55px;
+  font-weight: 700;
+  margin: 20px 0 20px 0;
+}
+
+
+/*===========================================================
+                PARALLAX (Generic)
+===========================================================*/
+
+.bg-parallax {
+  background-image: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+/*===========================================================
+                BUTTONS
+===========================================================*/
+
+.btn-general {
+  border-color: #fff;
+  border-width: 2px;
+  border-radius: 0;
+  padding: 12px 26px 12px 26px;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.btn-white {
+  border-color: #fff;
+  color: #fff;
+}
+
+.btn-white:hover, .btn-white:focus {
+  background-color: #fff;
+  color: #41464b;
+}
+
+
+/*===========================================================
+                ANIMATE
+===========================================================*/
+
+#home-cover, #home-heading, #home-btn {
+  animation-duration: .5s;
+}
+
+#home-heading {
+  animation-delay: .5s;
+}
+
+#home-btn {
+  animation-delay: 1s;
+}
+
+/*===========================================================
+                CONTENT (Generic)
+===========================================================*/
+
+.content-box {
+  padding: 60px 0 60px 0;
+}
+
+.content-title h3 {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 0 30px 0;
+}
+
+.content-title-underline {
+  width: 30px;
+  height: 3px;
+  background-color: black;
+  margin: 0 auto 30px auto;
+}
+
+
+/*===========================================================
+                SERVICES
+===========================================================*/
+
+.service-item {
+  padding: 20px 0 20px 0;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.service-item-icon {
+  color: #gray;
+  float: left;
+  padding: 15px;
+  margin-right: 25px;
+  width: 75px;
+  height: 75px;
+  text-align: center;
+}
+
+.service-item-title h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0 0 10px 0;
+}
+
+.service-item-desc p {
+  margin: 0;
+  padding-left: 85px;
+}
+
+footer {
+	text-align: center;
+	font-family: "Roboto Condensed", sans-serif;
+  margin: 0 auto;
+}
