@@ -49,8 +49,7 @@ html, body {
 
 #home-cover {
   height: 100%;
-  /*  background-image: url("https://static.pexels.com/photos/6565/apple-desk-laptop-working.jpg"); */
-  background-image: url("../img/bg-home.jpg");
+  background-image: url("https://static.pexels.com/photos/6565/apple-desk-laptop-working.jpg"); 
 }
 
 #home-content-box {
