@@ -23,18 +23,22 @@ p {
 }
 
 h3 {
-  color: #64707b;
+  color: 000;
   text-transform: uppercase;
 }
 
 h4 {
-  color: #64707b;
+  color: #fff;
 }
 
 p.aboutme {
   font-size: 20px;
   font-weight: 300;
   text-align: center;
+}
+
+a {
+  color: gray;
 }
 
 
@@ -102,6 +106,7 @@ html, body {
 }
 
 .btn-white {
+  margin-top: 15px;
   border-color: #fff;
   color: #fff;
 }
