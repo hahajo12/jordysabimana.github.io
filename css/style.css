@@ -17,13 +17,13 @@ html, body {
 }
 
 p {
-  color: #64707b;
+  color:#000;
   font-size: 16px;
   font-weight: 300;
 }
 
 h3 {
-  color: 000;
+  color:#41464b;
   text-transform: uppercase;
 }
 
@@ -31,10 +31,20 @@ h4 {
   color: #fff;
 }
 
-p.aboutme {
+p.about-me  {
   font-size: 20px;
   font-weight: 300;
   text-align: center;
+}
+
+p.contact-me  {
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+}
+
+p.copyright  {
+  color: #41464b;
 }
 
 a {
@@ -156,7 +166,6 @@ html, body {
   margin: 0 auto 30px auto;
 }
 
-
 /*===========================================================
                 SERVICES
 ===========================================================*/
@@ -192,4 +201,9 @@ footer {
   text-align: center;
   font-family: "Roboto Condensed", sans-serif;
   margin: 0 auto;
+}
+
+.email:hover{
+  color: #000;
+	font-weight: 700;
 }
