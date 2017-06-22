@@ -34,7 +34,42 @@
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar-fixed-top" data-offset="65">
+
+  <header>
+
+    <nav class="navbar navbar-fixed-top">
+
+      <div class="container-fluid">
+
+        <div class="vesco-nav-wrapper">
+
+          <div class="navbar-header">
+
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#vesco-menu">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                       </button>
+
+            <a class="navbar-brand" href="#home">Jordy Sabimana</a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="vesco-menu">
+            <ul class="nav navbar-nav">
+              <li><a class="smooth-scroll" href="#home">Home</a></li>
+              <li><a class="smooth-scroll" href="#about">About</a></li>
+              <li><a class="smooth-scroll" href="#work">Work</a></li>
+              <li><a class="smooth-scroll" href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+    </nav>
+  </header>
 
   <!-- Home -->
   <section id="home">
@@ -84,7 +119,7 @@
   </section>
 
   <!-- Work -->
-  <section id="services">
+  <section id="work">
 
     <div class="content-box">
       <div class="content-title wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
@@ -204,6 +239,9 @@
 
   <!-- WOW JS -->
   <script src="js/wow/wow.min.js"></script>
+
+  <!-- easing -->
+  <script src="js/easing/jquery.easing.1.3.js"></script>
 
   <!-- custom JS -->
   <script src="js/custom.js"></script>
