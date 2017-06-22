@@ -234,10 +234,15 @@ footer {
 
 .navbar-brand {
       color: #fff;
-    font-size: 15px;
+    font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 700;
+}
+
+.navbar-brand:hover, 
+.navbar-brand:focus {
+    color: #fff;
 }
 
 .navbar-nav>li>a {
