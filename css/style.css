@@ -66,10 +66,9 @@ html, body {
 
 #home-cover {
   
-  padding: 100px 0;
-  background: url("../img/bg-home2.jpg") no-repeat center center;
+  height: 100px;
+  background: url("../img/bg-home3.jpg") no-repeat center center;
   background-size: cover;
-
 }
 
 #home-content-box {
