@@ -66,9 +66,9 @@ html, body {
 
 #home-cover {
   
-  height: 100px;
-  background: url("../img/bg-home2.jpg") no-repeat center center;
-  background-size: cover;
+  height: 100%;
+  background-image: url("../img/bg-home2.jpg");
+
 }
 
 #home-content-box {
