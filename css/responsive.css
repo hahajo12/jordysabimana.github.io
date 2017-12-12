@@ -14,6 +14,11 @@
 
 @media (min-width: 992px) and (max-width: 1199px) {
     /* Mobile menu */
+    #home-cover {
+        
+        background-size: cover;
+        
+      }
     .navbar {
         background: rgba(0, 0, 0, .7);
         padding: 0;
@@ -60,6 +65,11 @@
     #footer-copyrights {
         text-align: center;
     }
+
+    #home-cover {
+        background-size: cover;
+        
+      }
 }
 
 
@@ -102,6 +112,11 @@
         min-width: 100%;
     }
 
+    #home-cover {
+        background-size: cover;
+        
+      }
+
 
 /* Extra Small Devices (Portrait Phones & Smaller devices) */
 
@@ -120,5 +135,10 @@
     #about-content-box {
         margin-top: 40px;
     }
+
+    #home-cover {
+        background-size: cover;
+        
+      }
 }
 }
