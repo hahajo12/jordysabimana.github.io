@@ -71,8 +71,8 @@ html, body {
   margin: auto;
   background: 
   linear-gradient(
-    rgba(0, 184, 255, 0.45),
-    rgba(0, 184, 255, 0.45)
+    rgba(192,192,192,0.3),
+    rgba(192,192,192,0.3)
   ),
   url("../img/bg-home3.jpg") no-repeat 50% 50%;
   background-size: cover;
